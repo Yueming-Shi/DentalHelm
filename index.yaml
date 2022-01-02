@@ -4,7 +4,7 @@ entries:
   - apiVersion: v2
     appVersion: 1.0.0
     created: "2021-09-05T16:20:25.691854452-04:00"
-    description: A Helm chart for Kubernetes
+    description: A Helm chart for Dental Referral Backend
     digest: 76f4a206fac469687b12db2863c932cc6e959c8ed3c04fdb3239f49b6fa8832a
     name: dental-backend
     type: application

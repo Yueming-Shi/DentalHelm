@@ -70,7 +70,7 @@ Note: key/val inside the function are actually both keys, it's just registered i
 - name: {{ $key }}
   valueFrom:
     secretKeyRef:
-      name: coinxp-appconf
+      name: dental-appconf
       key: {{ $val }}
 {{- end}}
 {{- range $key, $val := .Values.env.normal }}
