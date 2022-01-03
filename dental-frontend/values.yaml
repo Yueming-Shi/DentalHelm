@@ -9,7 +9,7 @@ env:
 replicaCount: 1
 
 image:
-  repository: yuemingshi/dental-referral-backend
+  repository: yuemingshi/dental-referral-frontend
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
