@@ -3,3 +3,4 @@ MONGO_PASSWORD=test
 MONGO_DB=DA-prototype
 MONGO_CLUSTER=cluster0.fgxqj
 BACKEND_PORT=8000
+REACT_APP_API_URI=http://dental-backend.default.svc.cluster.local:8000/graphql
