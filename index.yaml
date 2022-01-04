@@ -3,7 +3,7 @@ entries:
   dental-backend:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-01-04T13:44:17.884313595-05:00"
+    created: "2022-01-04T14:01:38.372984607-05:00"
     description: A Helm chart for Kubernetes
     digest: c84a508baf3cf8dc5f604370d66506ca09763f14b07dde167a4af1291299433c
     name: dental-backend
@@ -14,9 +14,9 @@ entries:
   dental-frontend:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-01-04T13:44:17.884988249-05:00"
+    created: "2022-01-04T14:01:38.373587707-05:00"
     description: A Helm chart for Kubernetes
-    digest: 4851a2434c2b496d1e81d9a2cc1e6123c545dde2ad9838791ac0e805e9165256
+    digest: 656ee016937a5e62754e8a6cdeb771e8fe3159c1f2611f535275f505e9647dda
     name: dental-frontend
     type: application
     urls:
@@ -25,7 +25,7 @@ entries:
   my-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-01-04T13:44:17.885881215-05:00"
+    created: "2022-01-04T14:01:38.374333368-05:00"
     description: A Helm chart for Kubernetes
     digest: a14d9671b63fa179fa6747817f4e3e5a70fb889139f989a7654d64cbee6f6963
     name: my-app
@@ -33,4 +33,4 @@ entries:
     urls:
     - https://yueming-shi.github.io/DentalHelm/my-app-0.1.0.tgz
     version: 0.1.0
-generated: "2022-01-04T13:44:17.879783549-05:00"
+generated: "2022-01-04T14:01:38.372260049-05:00"

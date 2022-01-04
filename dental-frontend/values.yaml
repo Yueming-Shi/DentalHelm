@@ -5,6 +5,7 @@
 env:
   normal:
     REACT_APP_API_URI: "REACT_APP_API_URI"
+    PORT: "FRONTEND_PORT"
 
 replicaCount: 1
 
