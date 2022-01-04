@@ -45,13 +45,13 @@ spec:
               path: /health
               port: 3000
             initialDelaySeconds: 60
-            timeoutSeconds: 10    
+            timeoutSeconds: 20    
           readinessProbe:
             httpGet:
               path: /health
               port: 3000
-            initialDelaySeconds: 30 
-            timeoutSeconds: 10                
+            initialDelaySeconds: 60 
+            timeoutSeconds: 20                
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
