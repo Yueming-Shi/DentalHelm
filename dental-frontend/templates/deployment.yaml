@@ -35,7 +35,9 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           env:
           {{- include "helpers.list-env-variables" . | indent 12 }}
-          command: ["/services/frontend/start.sh"]
+          command: ["node"]
+          args:
+            - "index.js"
           ports:
             - name: http
               containerPort: {{ .Values.service.port }}
