@@ -11,4 +11,15 @@ entries:
     urls:
     - https://github.com/Yueming-Shi/DentalHelm/releases/download/dental-backend-0.2.8/dental-backend-0.2.8.tgz
     version: 0.2.8
-generated: "2022-01-05T23:41:10.464623149Z"
+  dental-frontend:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-01-05T23:42:51.276514903Z"
+    description: A Helm chart for Kubernetes
+    digest: 5eb5b92ee33ecdfbb2285f33f662dcdddc5c80f27a96a568561c3d22695e5803
+    name: dental-frontend
+    type: application
+    urls:
+    - https://github.com/Yueming-Shi/DentalHelm/releases/download/dental-frontend-0.2.8/dental-frontend-0.2.8.tgz
+    version: 0.2.8
+generated: "2022-01-05T23:42:51.276524003Z"
