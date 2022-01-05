@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  dental-backend:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-01-05T23:41:10.464618349Z"
+    description: A Helm chart for Kubernetes
+    digest: 85078fb6415dd9ff7c5b7f59eb33aae0a2a4d1dd131166bb98f99dda6d929d34
+    name: dental-backend
+    type: application
+    urls:
+    - https://github.com/Yueming-Shi/DentalHelm/releases/download/dental-backend-0.2.8/dental-backend-0.2.8.tgz
+    version: 0.2.8
+generated: "2022-01-05T23:41:10.464623149Z"
